@@ -8,8 +8,8 @@ sudo apt-get install gnome-panel
 sudo apt-get install tightvncserver
 touch ~/.Xresources
 vncserver
-rm /home/zeromoddev/.vnc/xstartup
-cp xstartup //home/zeromoddev/.vnc/
+rm ~/.vnc/xstartup
+cp ~/guiforgc/xstartup ~/.vnc/
 sudo apt-get install gnome-themes-standard
 sudo apt-get install adwaita-icon-theme-full adwaita-icon-theme
 gsettings get org.gnome.metacity theme
