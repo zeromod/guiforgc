@@ -19,6 +19,8 @@ vncserver
 #fix xstartup
 rm ~/.vnc/xstartup
 cp xstartup ~/.vnc/
+chmod +x ~/.vnc/xstartup
+sudo chmod +x /etc/X11/xinit/xinitrc
 
 #install themes(optional)
 sudo apt-get -y install gnome-themes-standard
