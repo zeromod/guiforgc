@@ -32,4 +32,3 @@ gsettings set org.gnome.metacity theme 'Adwaita'
 
 #vncserver geometry (resolution)
 vncserver -geometry 1024x640
-vncserver -kill :1
